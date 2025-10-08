@@ -1,0 +1,90 @@
+/* ======== RESET ======== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ======== BASE ======== */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(180deg, #f6e7d5 0%, #d9bba0 100%);
+  color: #4a3324;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* ======== LOGO ======== */
+.logo {
+  width: 130px;
+  margin-bottom: 15px;
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* ======== TÍTULOS ======== */
+h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #4a3324;
+}
+
+.slogan {
+  font-family: 'Playfair Display', serif;
+  color: #c49256;
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+}
+
+/* ======== LINKS ======== */
+.link {
+  display: block;
+  background: #fff;
+  color: #4a3324;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 14px;
+  margin: 10px auto;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 340px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  border-left: 5px solid #c49256;
+}
+
+.link:hover {
+  transform: scale(1.05);
+  background: #c49256;
+  color: #fff;
+}
+
+/* ======== VARIAÇÕES ======== */
+.link.instagram {
+  border-left-color: #E1306C;
+}
+
+.link.whatsapp {
+  border-left-color: #25D366;
+}
+
+.link.email {
+  border-left-color: #4a3324;
+}
+
+.link.site {
+  border-left-color: #c49256;
+}
+
+/* ======== RODAPÉ ======== */
+footer {
+  margin-top: 40px;
+  font-size: 0.85rem;
+  color: #4a3324;
+  opacity: 0.8;
+}
